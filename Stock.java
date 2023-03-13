@@ -1,3 +1,9 @@
+/* Author: Douglas Crocker
+ * 
+ * This file defines the values and calculations of a stock that are displayed to the user 
+ */
+
+
 import java.io.*;
 import java.util.*;
 import java.lang.*;
@@ -25,7 +31,7 @@ public class Stock{
 		 }
 	}
 	
-	
+	// class reads the "stock".txt for an individual stock and displays it to the user
     public static double[][] returnInfo(String filename) throws FileNotFoundException
 	{ 
 		
